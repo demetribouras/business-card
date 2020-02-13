@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body { 
+    background-color: white;
+}
+
+/* .snapchat-container{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: auto;
+
+}
+
+.snapchat-image{
+    transform: scale(.2);
+} */
+
+.frontside{
+font-family:'Overpass', sans-serif;
+width: 390px;
+height: 220px;
+margin-left: 50px;
+position: relative;
+background-color: black;
+background-image: url('business_front.png') ;
+}
+
+.backside{
+    width: 390px;
+    height: 220px;
+    margin-top: 100px;
+    
+    position: relative;
+    background-image: url('business_backside.png');
+    
+
+}
+
+.text{
+color: white;
+margin-left: 160px;
+padding-top: 100px;
+font-size: 12px;
+}
